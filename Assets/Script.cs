@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Script : MonoBehaviour
 {
+
+    public float speed = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,7 @@ public class Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0,0,1);
+        transform.position += new Vector3(0,0,speed * Time.deltaTime);
+        
     }
 }
