@@ -260,7 +260,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7b48538ac0c57d4bbf25cd16d099888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs: []
+  prefabs:
+  - {fileID: 8714053998212661801, guid: 3440e417f18967b49b84abfcd468d506, type: 3}
+  - {fileID: 8714053998212661801, guid: 26d9b2f94612eaa448965623a2a85c92, type: 3}
   interval: 1
 --- !u!136 &154726756
 CapsuleCollider:
@@ -344,7 +346,7 @@ Transform:
   m_GameObject: {fileID: 154726754}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.35, y: 0.54, z: -0.69}
+  m_LocalPosition: {x: 1.35, y: 1.06, z: -4.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
